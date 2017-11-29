@@ -13,7 +13,7 @@ public class AdicionaTarefa {
 
     Tarefa tarefa = new Tarefa();
     tarefa.setDescricao("Tarefa sem tudo");
-    //tarefa.setFinalizado(true);
+    tarefa.setFinalizado(false);
     //tarefa.setDataFinalizacao(Calendar.getInstance());
 
     EntityManagerFactory factory = Persistence.
